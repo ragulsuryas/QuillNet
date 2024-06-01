@@ -1,0 +1,5 @@
+input.txt
+total_params.py
+model_state.pth
+model.pth
+__pycache__/
