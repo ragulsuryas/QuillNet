@@ -6,7 +6,6 @@ This repository contains a PyTorch implementation of a character-level language 
 
 - [Introduction](#introduction)
 - [Model Architecture](#model-architecture)
-- [Requirements](#requirements)
 - [Acknowledgements](#acknowledgements)
 
 ## Introduction
@@ -24,22 +23,8 @@ The model consists of several key components:
 
 The model parameters can be adjusted via hyperparameters defined at the beginning of the script.
 
-## Requirements
-
-To run the model, you need the following dependencies:
-
-- Python 3.x
-- PyTorch
-
-You can install the required packages using `pip`:
-
-```bash
-pip install torch
-```
 # Acknowledgements
 
 This implementation is inspired by Andrej Karpathy's ["GPT from Scratch"](https://github.com/karpathy/ng-video-lecture). His clear and insightful explanations on building generative pre-trained transformers from scratch provided a strong foundation for this project.
 
 Additionally, this work builds upon the Transformer architecture introduced in the seminal paper "[Attention is All You Need](https://arxiv.org/abs/1706.03762)" by Vaswani et al. The concepts of self-attention and transformer blocks have been fundamental to the development of this model.
-
-We express our gratitude to the authors and the community for their contributions to the field of deep learning and natural language processing.
